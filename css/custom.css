@@ -1,0 +1,98 @@
+body
+{
+	margin:0;
+}
+header
+{
+	width: 100%;
+	height: 160px;
+}
+#topBanner, #bottomBanner
+{
+	width: 100%;
+	height: 100px;	
+	background-color: crimson;
+	color: white;
+	text-align: center
+}
+#topBanner img
+{
+	width: 80px;
+	height: 80px
+}
+#bottomBanner 
+{
+	height: 60px;	
+}
+#bottomBanner ul
+{
+	padding: 0px;
+	width: 60%;
+	margin:0 20%;
+}
+#bottomBanner ul li
+{
+	float: left;
+	width: 20%;
+	list-style: none
+}
+#menu li a
+{
+	color: white!important;
+	text-decoration: none
+}
+.content
+{
+	width: 100%;
+	height: 400px;
+}
+.leftBlock
+{
+	width: 50%;
+	float: left;
+	margin:0 5%;
+}
+.rightBlock
+{
+	width: 30%;
+	float: left;
+	margin:0 5%;
+	height: 400px;
+	background-color: black;
+	color:white;
+}
+
+.rightBlock h2, .rightBlock p
+{
+	padding: 2%;
+}
+.rightBlock img
+{
+	width: 100%
+}
+
+.footer
+{
+	width: 100%;
+	height: 200px;
+	background-color: crimson;
+	color:white;
+}
+.topFooter,.bottomFooter
+{
+	width: 100%;
+	height: 100px;
+	text-align: center;
+}
+.topFooter ul li
+{
+	list-style: none;
+	border-right: 1px solid white;
+	width: 24%;
+	float: left;
+	margin-top: 50px
+}
+
+.topFooter ul li:last-child {
+  border:none;
+}
